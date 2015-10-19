@@ -1,0 +1,39 @@
+!doctype html
+html
+	head
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		title Taylor Kurmis		
+		link(rel="stylesheet" type="text/css" href="./bower_components/dist/css/bootstrap.min.css")
+	
+	body
+		div.container-fluid
+			aside
+				h1 Taylor Kurmis
+				nav
+					li: a(href="") Portfolio
+					li: a(href="") About
+					li: a(href="") Contact
+
+			// Some example carousel stuff we can do
+			
+			section(id="carousel" class="carousel slide" data-ride="carousel")
+				ol.carousel-indicators
+					li(data-target="#carousel" data-slide-to="0" class="active")
+    				li(data-target="#carousel" data-slide-to="1")
+    				li(data-target="#carousel" data-slide-to="2")
+
+    			div(class="carousel-inner" role="listbox")
+    				div.item.active
+    					img(src="" alt="")
+    					div.carousel-caption
+    				div.item
+    					img(src="" alt="")
+    					div.carousel-caption
+
+				a(class="left carousel-control" href="#carousel" role="button" data-slide="prev")
+					span(class="glyphicon glyphicon-chevron-left" aria-hidden="true")
+					span(class="sr-only") Previous
+
+				a(class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next")
+					span(class="glyphicon glyphicon-chevron-right" aria-hidden="true")
+					span(class="sr-only") Next

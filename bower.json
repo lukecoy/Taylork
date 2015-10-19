@@ -1,0 +1,21 @@
+{
+  "name": "Taylork",
+  "version": "0.0.0",
+  "homepage": "https://github.com/lukecoy/Taylork",
+  "authors": [
+    "Luke Coy <coy.luke@gmail.com>"
+  ],
+  "description": "Taylor K. personal artist website",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
